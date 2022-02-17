@@ -1,0 +1,20 @@
+//while loop.
+using System;
+namespace While
+{
+    class l2
+    {
+  static void Main() 
+  {
+      int num,i=1;
+    Console.WriteLine("enter the number that you want to print the series ");
+    num=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(" the number is "+num);
+    while(i<=num)
+    {
+        Console.WriteLine("hello this is c# programing");
+        i++;
+           }
+       }
+    }
+ }
