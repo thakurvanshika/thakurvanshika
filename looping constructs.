@@ -1,0 +1,19 @@
+//program for looping constructs.
+using System;
+namespace loop
+{
+    class f1
+    {
+  static void Main() 
+  {
+      int num,i;
+    Console.WriteLine("enter the number that you want to print series ");
+    num=Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine(" the series are ");
+    for(i=1;i<=num;i++)
+    {
+        Console.WriteLine(i);
+           }
+       }
+    }
+ }
