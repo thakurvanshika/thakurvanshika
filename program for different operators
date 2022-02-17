@@ -1,0 +1,23 @@
+//program for differnt operators.
+using System;
+namespace sample
+{ 
+class demo1
+{
+    static void Main(string[]args)
+    {
+        int a,b;
+           Console.WriteLine("enter 1st number");
+            a=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter 2nd number");       
+            b=Convert.ToInt32(Console.ReadLine());
+            
+            
+          Console.WriteLine("addition is=:"+(a+b));
+          Console.WriteLine("substracttion is=:"+(a-b));
+          Console.WriteLine("multiplication is=:"+(a*b));
+          Console.WriteLine("Division is=:"+(a/b));
+          Console.WriteLine("Modulatiuon is=:"+(a%b));
+        }
+       }
+}
